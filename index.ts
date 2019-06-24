@@ -1,1 +1,5 @@
-console.log('welcome to my typescript start kit!')
+import CustomLogger from './src/logger'
+
+const logger = CustomLogger.logger
+
+logger.info('welcome to my typescript start kit!')
