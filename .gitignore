@@ -82,4 +82,6 @@ TEST-results.xml
 src/*.js
 src/**/*/js
 dist/*
+index.js
+
 
