@@ -3,13 +3,18 @@
     "outDir": "./dist/",
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "lib": ["es2018", "dom"],
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "jsx": "react",
-    "allowJs": true
+    "allowJs": true,
+    "emitBOM": true,
+    "experimentalDecorators": true,
+    "extendedDiagnostics": true,
+    "incremental": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
