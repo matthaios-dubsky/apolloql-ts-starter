@@ -28,6 +28,7 @@
     "webpack-cli": "^3.3.5"
   },
   "dependencies": {
+    "@types/ramda": "^0.26.12",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "eslint": "^5.0.0",
@@ -35,6 +36,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "path": "^0.12.7",
     "prettier": "^1.18.2",
+    "ramda": "^0.26.1",
     "winston": "^3.2.1"
   }
 }
