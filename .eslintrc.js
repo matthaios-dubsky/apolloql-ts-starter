@@ -15,7 +15,8 @@ module.exports =  {
     "no-console": ["error", { allow: ["warn", "error"] }],
     "allowExpressions": true,
     "allowTypedFunctionExpressions": true,
-    "allowHigherOrderFunctions": true
+    "allowHigherOrderFunctions": true,
+    "@typescript-eslint/explicit-function-return-type": false,
   },
 };
 

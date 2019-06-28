@@ -1,5 +1,10 @@
-import CustomLogger from './src/logger'
+import { logger } from './src/logger'
+import { testFunc } from './src/common'
 
-const logger = CustomLogger.logger
+const moo = testFunc(1)
 
-logger.info('welcome to my typescript start kit!')
+type funType = (x: number) => number[]
+const f: funType = x => [x]
+const x = f(3)
+
+logger.info(`welcome to my typescript start kit! ${moo} ${x}`)

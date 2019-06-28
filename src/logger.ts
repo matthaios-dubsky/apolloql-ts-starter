@@ -4,10 +4,10 @@ import * as winston from 'winston'
 const format = winston.format
 const transports = winston.transports
 
-export default class CutomLogger {
-  public static logger = winston.createLogger({
-    level: 'info',
-    format: format.simple(),
-    transports: [new transports.Console()],
-  })
-}
+const logger = winston.createLogger({
+  level: 'info',
+  format: format.simple(),
+  transports: [new transports.Console()],
+})
+
+export { logger }
