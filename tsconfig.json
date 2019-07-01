@@ -16,10 +16,8 @@
     "incremental": true,
     "noImplicitReturns": true,
     "strictPropertyInitialization": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "moduleResolution": "node"
   },
-  "include": ["./index.ts", "src/**/*"],
+  "include": ["index.ts", "src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
 }

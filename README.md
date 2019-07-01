@@ -33,6 +33,7 @@ Includes:
   },
   ```
 - `esModuleInterop: true` in `tsconfig.ts` is needed for _Express_.
+- Make sure in `webpack.config.js` you have `target: 'node'`.
 
 # Reference:
 
