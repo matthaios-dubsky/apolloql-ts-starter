@@ -15,6 +15,7 @@
     "extendedDiagnostics": true,
     "incremental": true,
     "noImplicitReturns": true,
+    "strictPropertyInitialization": true,
     "moduleResolution": "node"
   },
   "include": ["src/**/*"],
