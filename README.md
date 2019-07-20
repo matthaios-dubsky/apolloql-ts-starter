@@ -8,6 +8,7 @@ Includes eslint, prettier, webpack, and jest
 - for using _winston logger_, `import { createLogger, format, transports } from 'winston'` doesn't seems to work, so `const winston = require('winston')` used instead.
 - also for _winston logger_, there is a [strange issue](https://github.com/webpack-contrib/css-loader/issues/447) with webpack and node `fs` module, a hack is included in the `webpack.config.js` file: `node: { fs: 'empty' }`.
 - On module, in `tsconfig.ts`, use `"module": "commonjs"`, and for modules like _winston_, import with `import * as winston from 'winston'`.
+- adds [io-ts](https://github.com/gcanti/io-ts), which requires [fp-ts](https://github.com/gcanti/fp-ts). It is a bit redundant since [Rambda](https://ramdajs.com/) is already here. Well, at least you have a choice.
 
 # Reference:
 
