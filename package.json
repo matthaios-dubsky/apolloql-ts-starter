@@ -8,13 +8,14 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "npm run lint && npm test && npm run webpack-prod",
-    "build-ts": "tsc -p .",
+    "build": "npm run lint && npm test && npm run webpack:prod",
+    "build:gcp": "npm run lint && npm test && tsc -p . --outDir ./gcp && cp package* gcp/",
     "watch": "tsc -w -p .",
-    "webpack-dev": "webpack --mode=development",
-    "webpack-prod": "webpack --mode=production",
+    "webpack:dev": "webpack --mode=development",
+    "webpack:prod": "webpack --mode=production",
     "lint": "eslint --fix **/*.ts",
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "clean": "rm -rf dist/* && rm -rf gcp/*"
   },
   "license": "ISC",
   "devDependencies": {
