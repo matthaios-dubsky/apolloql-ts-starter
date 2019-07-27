@@ -44,4 +44,5 @@ Includes:
 - [typeorm](https://github.com/typeorm/typeorm)
 - [typedi](https://github.com/typestack/typedi)
 - [Apollo Server with Express Integration](https://github.com/apollographql/apollo-server)
+- [Setting up Express, Apollo and creating a simple GraphQL API](https://medium.com/@th.guibert/basic-apollo-express-graphql-api-with-typescript-2ee021dea2c)
 - [Ramda](https://ramdajs.com/)
