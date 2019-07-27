@@ -12,11 +12,13 @@
     "allowJs": true,
     "emitBOM": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "extendedDiagnostics": true,
     "incremental": true,
     "noImplicitReturns": true,
     "strictPropertyInitialization": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "include": ["index.ts", "src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
