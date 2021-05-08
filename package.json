@@ -58,7 +58,7 @@
     "ramda": "^0.26.1",
     "type-graphql": "^0.17.6",
     "typedi": "^0.8.0",
-    "typeorm": "^0.2.24",
+    "typeorm": "^0.2.25",
     "winston": "^3.2.1"
   }
 }
